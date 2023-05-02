@@ -18,7 +18,7 @@ body {
 /* Header*/
 
 header {
-    height: 90px;
+    height: 80px;
     background-color: black;
 }
 
@@ -53,17 +53,60 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     align-content: flex-start;
+    margin: 16px;
 }
 
 main {
-    height: calc(100vh - 180px);
+    height: calc(100vh - 160px);
     overflow-y: auto;
+    background-color: black
 }
+
+.card {
+    position: relative;
+    margin: ; 
+
+}
+
+.card img {
+    max-width: 98%;
+}
+
+
+.favourite-gr {
+    position: absolute;
+    top: ;
+    bottom: 6px;
+}
+
+.favourite-gr > span {
+    background: grey;
+    color: white;
+    padding: 2px;
+}
+
+
+
 
 
 /* Footer*/
 
 footer {
-    height: 90px;
+    height: 80px;
     background-color: black;
+    color: white;
+    
 }
+
+
+h4 {
+  margin-top: 15px;
+}
+
+.text-icon-footer {
+  position: ;
+  flex-basis: ;
+  display: flex;
+  align-items: center;
+}
+
