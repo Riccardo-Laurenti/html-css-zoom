@@ -10,11 +10,9 @@ body {
 }
 
 .container {
-    max-width: 1300px;
+    max-width: 1800px;
     margin: 0px auto;
 }
-
-
 
 
 /* Header*/
@@ -46,14 +44,23 @@ header {
     margin: 2px;
 }
 
-.next-to-navbar {
 
-}
+
 /* Main*/
 
-
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
 
 
 
 
 /* Footer*/
+
+footer {
+    height: 90px;
+    background-color: black;
+}
