@@ -19,14 +19,36 @@ body {
 
 /* Header*/
 
+header {
+    height: 90px;
+    background-color: black;
+}
 
 
 
+.navbar {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+ }
 
 
+.navbar-right {
+  color: white;
+  margin-right: 8px;
+}
 
 
+.grey-back {
+    background-color: grey;
+    padding: 4px;
+    margin: 2px;
+}
 
+.next-to-navbar {
+
+}
 /* Main*/
 
 
