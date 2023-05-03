@@ -93,20 +93,45 @@ main {
 
 footer {
     height: 80px;
+    flex: 0 0 80px;
     background-color: black;
     color: white;
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-
-h4 {
-  margin-top: 15px;
+.end-meeting {
+    align-self: stretch;
 }
 
-.text-icon-footer {
-  position: ;
-  flex-basis: ;
-  display: flex;
-  align-items: center;
+.end-meeting button {
+    color: red;
+    background-color: grey;
+    border: 0;
+    padding: 20px;
+    cursor: pointer;
+    height: 100%;
+    border-radius: 0;
 }
+
+footer .controls {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+footer .control {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ .green-contr {
+    color: #6aff60;
+    }
+
 
